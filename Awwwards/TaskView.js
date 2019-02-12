@@ -77,7 +77,7 @@ TaskView.prototype = {
         this.deleteTaskEvent.notify();
     },
 
-    selectOrUnselectTask: function () {
+    selectOrUnselectTask: function (event) {
 
         var taskIndex = $(event.target).attr("data-index");
 
